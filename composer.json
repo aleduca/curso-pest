@@ -1,0 +1,20 @@
+{
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "autoload": {
+       "psr-4": {
+            "app\\": "app/"
+          }
+       },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
